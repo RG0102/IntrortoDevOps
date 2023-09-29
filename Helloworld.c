@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main()
 {
-    printf("This is another string!");
+   
+   for(int i = 1; i <=10; i++)
+   {
+      printf("%d\n", i);
+   }
+   
+   return 0;
 
-    return 0;
-    
-}
+}// end main
